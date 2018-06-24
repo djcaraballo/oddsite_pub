@@ -1,0 +1,52 @@
+/*--PAGE 2--*/
+
+
+h1 {
+	font-family: "raph lanok future";
+	font-size: 1200%;
+	margin-bottom: 30px;
+}
+
+
+p.intro:first-letter {
+	font-size: 300%;
+	font-family: "raph lanok future";
+}
+
+
+p {
+	font-family: "montserrat";
+	line-height: 24px;
+	padding: 5px;
+	align-content: center;
+}
+
+p.quote {
+	font-family: "raph lanok future";
+	font-size: 36px;
+	line-height: 50px;
+	padding: 5px;
+	text-align: center;
+}
+
+.artistBioTitle {
+	background-image: url(https://2l7g9kgsh281akevs49v281d-wpengine.netdna-ssl.com/wp-content/uploads/2014/06/ODDISEE-INTERVIEW-BANNER.jpg);
+	background-size: 120%;
+	margin-bottom: 30px;
+
+}
+
+section {
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+blockquote {
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+
+}
+
+
+
+

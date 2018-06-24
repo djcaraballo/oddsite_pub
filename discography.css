@@ -1,0 +1,192 @@
+/*--PAGE 3--*/
+
+body {
+	/*background-color: #1F0B07;*/
+	background: linear-gradient(180deg, #00b3b3, #332200);
+}
+
+
+.discTitle {
+	background-image: url(https://www.couleurcafe.be/images/news/intro-image/banner-198.jpg);
+	background-size: 100%;
+	margin-bottom: 100px;
+	background-repeat: none;
+}
+
+
+h1 {
+	font-family: "raph lanok future";
+	font-size: 800%;
+	color: white;
+	padding-left: 5px;
+	padding-bottom: 190px;
+	margin-bottom: 100px;
+}
+
+
+p {
+	font-family: "montserrat";
+	text-align: center;
+	line-height: 10px;
+}
+
+
+p.album-title {
+	color: white;
+	font-size: 125%;
+}
+
+
+.nav {
+	color: white;
+	padding-left: 5px;
+	padding-bottom: 10px;
+	margin-bottom: 0px;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: auto;
+	column-gap: 1px;
+	grid-template-rows: auto; /*You may have to put in values instead of auto*/
+	grid-row-gap: 50px;
+	grid-template-areas: 
+		"header header header" /*These may need to change in order to name them accurately according to which items are placed where*/
+		"main-one main-one main-one"
+		"main-two main-two main-two"
+		"footer footer footer";
+	
+	justify-items: center;
+	align-items: center;
+	justify-content: stretch; /*space-around will also work*/
+	align-content: stretch; /*space-around will also work*/
+}
+
+
+.grid-photo1-1 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	grid-area: header;
+	justify-self: center;
+	align-self: center;
+}
+
+.grid-photo1-2 {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	grid-area: header;
+	justify-self: center;
+	align-self: center;
+}
+
+.grid-photo1-3 {
+	grid-column-start: 3;
+	grid-column-end: end;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	grid-area: header;
+	justify-self: center;
+	align-self: center;
+}
+
+.grid-photo2-1 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	grid-area: main-one;
+	justify-self: center;
+	align-self: center;
+}
+
+.grid-photo2-2 {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	grid-area: main-one;
+	justify-self: center;
+	align-self: center;
+}
+
+.grid-photo2-3 {
+	grid-column-start: 3;
+	grid-column-end: end;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	grid-area: main-one;
+	justify-self: center;
+	align-self: center;
+}
+
+.grid-photo3-1 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 3;
+	grid-row-end: 4;
+	grid-area: main-two;
+	justify-self: center;
+	align-self: center;
+}
+
+.grid-photo3-2 {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 3;
+	grid-row-end: 4;
+	grid-area: main-two;
+	justify-self: center;
+	align-self: center;
+}
+
+.grid-photo3-3 {
+	grid-column-start: 3;
+	grid-column-end: end;
+	grid-row-start: 3;
+	grid-row-end: 4;
+	grid-area: main-two;
+	justify-self: center;
+	align-self: center;
+}
+
+.grid-photo4-1 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 4;
+	grid-row-end: end;
+	grid-area: footer;
+	justify-self: center;
+	align-self: center;
+}
+
+.grid-photo4-2 {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 4;
+	grid-row-end: end;
+	grid-area: footer;
+	justify-self: center;
+	align-self: center;
+}
+
+.grid-photo4-3 {
+	grid-column-start: 3;
+	grid-column-end: end;
+	grid-row-start: 4;
+	grid-row-end: end;
+	grid-area: footer;
+	justify-self: center;
+	align-self: center;
+}
+
+
+
+
+
+
+
+

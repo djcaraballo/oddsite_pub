@@ -1,0 +1,65 @@
+/*--PAGE 4--*/
+
+body {
+	/*background-color: #B3966E;*/
+	background: linear-gradient(180deg, #c2660a, #332200);
+}
+
+h1 {
+	font-family: "raph lanok future";
+	font-size: 800%;
+	padding-left: 5px;
+	padding-bottom: 190px;
+	margin-bottom: 100px;
+}
+
+
+h3 {
+	font-family: "raph lanok future";
+	font-size: 350%;
+	color: white;
+	border-bottom: 2px solid white;
+	margin: 20px;
+
+}
+
+p, td {
+	font-family: "montserrat";
+	font-size: 18px;
+	color: white;
+}
+
+
+.tourTitle {
+	background-image: url(https://themessage.at/wp-content/uploads/2015/10/open-a-history-book-oddisee-interview.jpg);
+	background-size: 100%;
+	margin-bottom: 100px;
+	background-repeat: none;
+	color: white;
+}
+
+.nav {
+	color: white;
+	padding-left: 5px;
+	padding-bottom: 10px;
+	margin-bottom: 0px;
+}
+
+.tourDatesTable {
+	margin-left: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
