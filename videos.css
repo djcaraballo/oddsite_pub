@@ -23,7 +23,7 @@ p {
 	font-family: "montserrat";
 }
 
-.videoTitle {
+.video-title {
 	background-image: url(http://www.rhymeonbeat.com/wp-content/uploads/2015/03/Feature-Oddisee-660x330.jpg);
 	background-size: 100%;
 	margin-bottom: 30px;
@@ -55,7 +55,7 @@ p {
 	margin-bottom: 50px;
 }
 
-.wantToBe {
+.want-to-be {
 	grid-column-start: 1;
 	grid-column-end: 2;
 	grid-row-start: 1;
@@ -64,7 +64,7 @@ p {
 	align-self: center;
 }
 
-.ownAppeal {
+.own-appeal {
 	grid-column-start: 3;
 	grid-column-end: end;
 	grid-row-start: 1;
@@ -73,7 +73,7 @@ p {
 	align-self: center;
 }
 
-.whoYouAre {
+.who-you-are {
 	grid-column-start: 1;
 	grid-column-end: 2;
 	grid-row-start: 2;
