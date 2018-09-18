@@ -30,7 +30,7 @@ p, td {
 }
 
 
-.tourTitle {
+.tour-title {
 	background-image: url(https://themessage.at/wp-content/uploads/2015/10/open-a-history-book-oddisee-interview.jpg);
 	background-size: 100%;
 	margin-bottom: 100px;
@@ -45,7 +45,7 @@ p, td {
 	margin-bottom: 0px;
 }
 
-.tourDatesTable {
+.tour-dates-table {
 	margin-left: 150px;
 }
 
